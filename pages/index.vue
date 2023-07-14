@@ -2,6 +2,7 @@
 <style scoped lang="stylus" src="./index.styl"/>
 <script setup lang="ts">
 const { useAdminPermission, useUserPermission, logOut } = useAppPermission()
+const { t, locale } = useI18n()
 
 const loginWithAdmin = () => {
   console.log("loginWithAdmin");

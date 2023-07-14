@@ -2,7 +2,7 @@
 <style scoped lang="stylus" src="./index.styl"/>
 <script setup lang="ts">
 definePageMeta({
-  middleware: 'auth',
+  layout: "none",
 });
-const title = ref('Admin')
+const title = ref('401')
 </script>
