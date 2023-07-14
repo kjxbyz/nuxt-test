@@ -1,8 +1,20 @@
-<template lang="pug" src="./index.pug"/>
-<style scoped lang="stylus" src="./index.styl"/>
+<template lang="pug">
+h1.title {{ title }}
+.desc Div
+</template>
 <script setup lang="ts">
 definePageMeta({
   middleware: 'auth',
 });
 const title = ref('Admin')
 </script>
+
+<style scoped lang="stylus">
+.title
+  color red
+  font-weight bolder
+  font-size 24px
+
+.desc
+  color blue
+</style>
