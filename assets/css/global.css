@@ -1,0 +1,37 @@
+html {
+    font-size: 15px;
+    width: 100vw;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Homemade Apple';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/fonts/homemade-apple-v18.ttf) format('truetype');
+}
+
+/* Force vertical scrollbar to be always visible to avoid layout shift while loading the content */
+body {
+    overflow-y: scroll;
+    -webkit-tap-highlight-color: transparent;
+    background-color: var(--bg);
+    color: var(--color);
+    transition: background-color .3s;
+}
+
+html,
+body,
+#__nuxt {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+html.dark {
+    color-scheme: dark;
+}
+
+a {
+    color: var(--color-primary)
+}

@@ -1,20 +1,22 @@
 import { createVuetify } from 'vuetify'
-import '@mdi/font/css/materialdesignicons.css'
 import * as components from 'vuetify/components'
+import * as labs from 'vuetify/labs/components'
 import * as directives from 'vuetify/directives'
-import { PurpleTheme } from '@/theme/LightTheme'
+import { en, zhHans } from 'vuetify/locale'
 
 export default defineNuxtPlugin((nuxtApp) => {
   const vuetify = createVuetify({
     ssr: false,
-    components,
-    directives,
-    theme: {
-      defaultTheme: 'PurpleTheme',
-      themes: {
-        PurpleTheme,
-      },
+    locale: {
+      locale: 'en',
+      fallback: 'en',
+      messages: { zhHans, en },
     },
+    components: {
+      ...components,
+      ...labs,
+    },
+    directives,
   })
   nuxtApp.vueApp.use(vuetify)
 })

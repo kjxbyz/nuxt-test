@@ -143,6 +143,7 @@ export const i18n: NuxtI18nOptions = {
   langDir: 'locales',
   defaultLocale: 'en',
   vueI18n: {
+    legacy: false,
     availableLocales: currentLocales.map((l) => l.code),
     fallbackLocale: 'en',
     fallbackWarn: false,

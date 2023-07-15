@@ -12,6 +12,8 @@ v-btn(@click="loginWithAdmin", variant="flat", color="blue") {{ $t('loginWithAdm
 v-btn(@click="loginWithUser", variant="flat", color="blue") {{ $t('loginWithUser') }}
 | &nbsp;
 v-btn(@click="logout", variant="flat", color="red") {{ $t('logout') }}
+| &nbsp;
+v-date-picker
 </template>
 
 <script setup lang="ts">
