@@ -15,7 +15,7 @@
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@types/node": "^18.16.19",
     "@vueuse/nuxt": "^10.2.1",
-    "nuxt": "^3.6.2",
+    "nuxt": "^3.6.3",
     "nuxt-vercel-analytics": "^0.2.2",
     "prettier": "^3.0.0",
     "pug": "^3.0.2",
