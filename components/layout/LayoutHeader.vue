@@ -1,6 +1,8 @@
 <template lang="pug">
 .title
-  | Header
+  NuxtLink(href="/") Home
+  | &nbsp;
+  NuxtLink(href="/blog") Blog
   | &nbsp;
   v-select.select(label="Select", v-model="lang", :items="locales", item-title="name", item-value="code")
   | &nbsp;

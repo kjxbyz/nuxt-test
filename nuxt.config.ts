@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   build: {
     transpile: ['vuetify'],
   },
-  modules: ['@vueuse/nuxt', '@nuxtjs/i18n', '@vue-macros/nuxt', '@nuxtjs/tailwindcss', '@nuxtjs/color-mode'],
+  modules: ['@vueuse/nuxt', '@nuxtjs/i18n', '@vue-macros/nuxt', '@nuxtjs/tailwindcss', '@nuxtjs/color-mode', '@nuxt/content'],
   macros: {
     setupSFC: true,
   },
