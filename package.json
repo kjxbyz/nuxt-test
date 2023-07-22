@@ -13,7 +13,7 @@
     "@nuxt/devtools": "latest",
     "@nuxtjs/color-mode": "^3.3.0",
     "@nuxtjs/tailwindcss": "^6.8.0",
-    "@types/node": "^18.16.19",
+    "@types/node": "^18.16.20",
     "@vueuse/nuxt": "^10.2.1",
     "nuxt": "^3.6.5",
     "nuxt-vercel-analytics": "^0.2.2",
