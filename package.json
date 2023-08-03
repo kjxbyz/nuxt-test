@@ -17,7 +17,7 @@
     "@vueuse/nuxt": "^10.2.1",
     "nuxt": "^3.6.5",
     "nuxt-vercel-analytics": "^0.2.2",
-    "prettier": "^3.0.0",
+    "prettier": "^3.0.1",
     "pug": "^3.0.2",
     "stylus": "^0.59.0",
     "stylus-loader": "^7.1.3"
