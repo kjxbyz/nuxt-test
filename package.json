@@ -1,10 +1,11 @@
 {
-  "name": "nuxt-pug",
+  "name": "nuxt-test",
   "private": true,
   "version": "0.0.0",
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev": "nuxi dev --port 5314",
+    "dev:pwa": "VITE_DEV_PWA=true nuxi dev --port 5314",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
