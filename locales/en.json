@@ -1,5 +1,100 @@
 {
+  "action": {
+    "apply": "Apply",
+    "bookmark": "Bookmark",
+    "bookmarked": "Bookmarked",
+    "boost": "Boost",
+    "boost_count": "{0}",
+    "boosted": "Boosted",
+    "clear_publish_failed": "Clear publish errors",
+    "clear_save_failed": "Clear save errors",
+    "clear_upload_failed": "Clear file upload errors",
+    "close": "Close",
+    "compose": "Compose",
+    "confirm": "Confirm",
+    "done": "Done",
+    "edit": "Edit",
+    "enter_app": "Enter App",
+    "favourite": "Favorite",
+    "favourite_count": "{0}",
+    "favourited": "Favorited",
+    "more": "More",
+    "next": "Next",
+    "prev": "Prev",
+    "publish": "Publish",
+    "reply": "Reply",
+    "reply_count": "{0}",
+    "reset": "Reset",
+    "save": "Save",
+    "save_changes": "Save changes",
+    "sign_in": "Sign in",
+    "sign_in_to": "Sign in to {0}",
+    "switch_account": "Switch account",
+    "vote": "Vote"
+  },
   "loginWithAdmin": "Login With Admin",
   "loginWithUser": "Login With User",
-  "logout": "Logout"
+  "logout": "Logout",
+  "nav": {
+    "back": "Go back",
+    "blocked_domains": "Blocked domains",
+    "blocked_users": "Blocked users",
+    "bookmarks": "Bookmarks",
+    "built_at": "Built {0}",
+    "compose": "Compose",
+    "conversations": "Conversations",
+    "explore": "Explore",
+    "favourites": "Favorites",
+    "federated": "Federated",
+    "home": "Home",
+    "list": "List",
+    "lists": "Lists",
+    "local": "Local",
+    "muted_users": "Muted users",
+    "notifications": "Notifications",
+    "privacy": "Privacy",
+    "profile": "Profile",
+    "search": "Search",
+    "select_feature_flags": "Toggle Feature Flags",
+    "select_font_size": "Font Size",
+    "select_language": "Display Language",
+    "settings": "Settings",
+    "show_intro": "Show intro",
+    "toggle_theme": "Toggle Theme",
+    "zen_mode": "Zen Mode"
+  },
+  "pwa": {
+    "dismiss": "Dismiss",
+    "install": "Install",
+    "install_title": "Install NT",
+    "screenshots": {
+      "dark": "Screenshot of NT running in dark mode",
+      "light": "Screenshot of NT running in light mode"
+    },
+    "title": "New NT update available!",
+    "update": "Update",
+    "update_available_short": "Update NT",
+    "webmanifest": {
+      "canary": {
+        "description": "A nimble Mastodon web client (canary)",
+        "name": "NT (canary)",
+        "short_name": "NT (canary)"
+      },
+      "dev": {
+        "description": "A nimble Mastodon web client (dev)",
+        "name": "NT (dev)",
+        "short_name": "NT (dev)"
+      },
+      "preview": {
+        "description": "A nimble Mastodon web client (preview)",
+        "name": "NT (preview)",
+        "short_name": "NT (preview)"
+      },
+      "release": {
+        "description": "A nimble Mastodon web client",
+        "name": "NT",
+        "short_name": "NT"
+      }
+    }
+  }
 }
