@@ -1,5 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import { i18n } from './config/i18n'
+import { currentLocales } from './config/i18n'
 
 export default defineNuxtConfig({
   ssr: false,
@@ -15,5 +15,13 @@ export default defineNuxtConfig({
     classSuffix: '',
   },
   devtools: { enabled: true },
-  i18n,
+  i18n: {
+    locales: currentLocales,
+    lazy: true,
+    strategy: 'no_prefix',
+    detectBrowserLanguage: false,
+    langDir: 'locales',
+    defaultLocale: 'en-US',
+    vueI18n: './config/i18n.config.ts',
+  },
 })
