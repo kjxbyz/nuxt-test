@@ -1,3 +1,4 @@
+export const APP_NAME = 'NT'
 export const rolesKey = '__routes__';
 export const languageKey = '__language__';
 export const NT_PAGE_LIFECYCLE_FROZEN = 'nt-frozen'
