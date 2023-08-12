@@ -80,6 +80,55 @@ export default defineNuxtConfig({
       fsBase: 'node_modules/.cache/app',
     },
   },
+  routeRules: {
+    // Static generation
+    '/': { prerender: true },
+    // incremental regeneration
+    '/api/list-servers': { swr: true },
+    // CDN cache rules
+    '/manifest.webmanifest': {
+      headers: {
+        'Content-Type': 'application/manifest+json',
+        'Cache-Control': 'public, max-age=0, must-revalidate',
+      },
+    },
+  },
+  nitro: {
+    alias: {
+      'isomorphic-ws': 'unenv/runtime/mock/proxy',
+    },
+    esbuild: {
+      options: {
+        target: 'esnext',
+      },
+    },
+    prerender: {
+      crawlLinks: true,
+    },
+    publicAssets: [
+      {
+        dir: '~/public/avatars',
+        maxAge: 24 * 60 * 60 * 30, // 30 days
+        baseURL: '/avatars',
+      },
+      {
+        dir: '~/public/emojis',
+        maxAge: 24 * 60 * 60 * 15, // 15 days, matching service worker
+        baseURL: '/emojis',
+      },
+      {
+        dir: '~/public/fonts',
+        maxAge: 24 * 60 * 60 * 365, // 1 year (versioned)
+        baseURL: '/fonts',
+      },
+      {
+        dir: '~/public/shiki',
+        maxAge: 24 * 60 * 60 * 365, // 1 year, matching service worker
+        baseURL: '/shiki',
+      },
+    ],
+  },
+  sourcemap: isDevelopment,
   hooks: {
     'prepare:types': function ({ references }) {
       references.push({ types: '@types/wicg-file-system-access' })
@@ -113,6 +162,57 @@ export default defineNuxtConfig({
         noExternal.push('masto', '@fnando/sparkline', 'vue-i18n', '@mastojs/ponyfills')
       }
     },
+  },
+  app: {
+    keepalive: true,
+    head: {
+      viewport: 'width=device-width,initial-scale=1,viewport-fit=cover',
+      bodyAttrs: {
+        class: 'overflow-x-hidden',
+      },
+      link: [
+        { rel: 'icon', href: '/favicon.ico', sizes: 'any' },
+        { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' },
+        { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
+      ],
+      meta: [
+        { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' },
+        // open graph social image
+        { property: 'og:title', content: 'NT' },
+        { property: 'og:description', content: 'A web client' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:image', content: 'https://elk.zone/elk-og.png' },
+        { property: 'og:image:width', content: '3800' },
+        { property: 'og:image:height', content: '1900' },
+        { property: 'og:site_name', content: 'NT' },
+      ],
+    },
+  },
+  // eslint-disable-next-line @typescript-eslint/prefer-ts-expect-error
+  // @ts-ignore nuxt-security is conditional
+  security: {
+    headers: {
+      crossOriginEmbedderPolicy: false,
+      contentSecurityPolicy: {
+        'default-src': ['\'self\''],
+        'base-uri': ['\'self\''],
+        'connect-src': ['\'self\'', 'https:', 'http:', 'wss:', 'ws:'],
+        'font-src': ['\'self\''],
+        'form-action': ['\'none\''],
+        'frame-ancestors': ['\'none\''],
+        'img-src': ['\'self\'', 'https:', 'http:', 'data:', 'blob:'],
+        'media-src': ['\'self\'', 'https:', 'http:'],
+        'object-src': ['\'none\''],
+        'script-src': ['\'self\'', '\'unsafe-inline\'', '\'wasm-unsafe-eval\''],
+        'script-src-attr': ['\'none\''],
+        'style-src': ['\'self\'', '\'unsafe-inline\''],
+        'upgrade-insecure-requests': true,
+      },
+      permissionsPolicy: {
+        fullscreen: ['\'self\'', 'https:', 'http:'],
+      },
+    },
+    rateLimiter: false,
   },
   unlazy: {
     ssr: false,
