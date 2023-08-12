@@ -1,4 +1,3 @@
-import type { NuxtI18nOptions } from '@nuxtjs/i18n'
 import type { DateTimeFormats, NumberFormats, PluralizationRule, PluralizationRules } from '@intlify/core-base'
 
 import type { LocaleObject } from '#i18n'
@@ -61,7 +60,7 @@ function buildLocales() {
 
 export const currentLocales = buildLocales()
 
-const datetimeFormats = Object.values(currentLocales).reduce(
+export const datetimeFormats = Object.values(currentLocales).reduce(
   (acc, data) => {
     const dateTimeFormats = data.dateTimeFormats
     if (dateTimeFormats) {
@@ -88,7 +87,7 @@ const datetimeFormats = Object.values(currentLocales).reduce(
   <DateTimeFormats>{},
 )
 
-const numberFormats = Object.values(currentLocales).reduce(
+export const numberFormats = Object.values(currentLocales).reduce(
   (acc, data) => {
     const numberFormats = data.numberFormats
     if (numberFormats) {
@@ -122,7 +121,7 @@ const numberFormats = Object.values(currentLocales).reduce(
   <NumberFormats>{},
 )
 
-const pluralRules = Object.values(currentLocales).reduce(
+export const pluralRules = Object.values(currentLocales).reduce(
   (acc, data) => {
     const pluralRule = data.pluralRule
     if (pluralRule) {
@@ -134,22 +133,3 @@ const pluralRules = Object.values(currentLocales).reduce(
   },
   <PluralizationRules>{},
 )
-
-export const i18n: NuxtI18nOptions = {
-  locales: currentLocales,
-  lazy: true,
-  strategy: 'no_prefix',
-  detectBrowserLanguage: false,
-  langDir: 'locales',
-  defaultLocale: 'en',
-  vueI18n: {
-    legacy: false,
-    availableLocales: currentLocales.map((l) => l.code),
-    fallbackLocale: 'en',
-    fallbackWarn: false,
-    missingWarn: false,
-    datetimeFormats,
-    numberFormats,
-    pluralRules,
-  },
-}
