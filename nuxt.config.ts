@@ -15,7 +15,6 @@ export default defineNuxtConfig({
       },
     },
   },
-  ssr: false,
   css: [
     '@mdi/font/css/materialdesignicons.css',
     'vuetify/lib/styles/main.css',
@@ -32,6 +31,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
     '@nuxt/content',
+    '@unlazy/nuxt',
     'nuxt-vercel-analytics',
     ...(isDevelopment || isWindows) ? [] : ['nuxt-security'],
     '~/modules/build-env',
@@ -113,5 +113,8 @@ export default defineNuxtConfig({
         noExternal.push('masto', '@fnando/sparkline', 'vue-i18n', '@mastojs/ponyfills')
       }
     },
+  },
+  unlazy: {
+    ssr: false,
   },
 })
