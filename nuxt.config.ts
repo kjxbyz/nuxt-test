@@ -165,6 +165,7 @@ export default defineNuxtConfig({
   },
   app: {
     baseURL: process.env.TAURI_PLATFORM ? '/' : '/nuxt-test',
+    buildAssetsDir: process.env.TAURI_PLATFORM ? '/_nuxt/' : '/nuxt-test/_nuxt/',
     keepalive: true,
     head: {
       viewport: 'width=device-width,initial-scale=1,viewport-fit=cover',
