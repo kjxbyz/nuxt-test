@@ -2188,6 +2188,15 @@
     estree-walker "^2.0.2"
     picomatch "^2.3.1"
 
+"@rollup/pluginutils@^5.0.3":
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-5.0.3.tgz#183126d69aeb1cfa23401d5a71cb4b8c16c4a4e0"
+  integrity sha512-hfllNN4a80rwNQ9QCxhxuHCGHMAvabXqxNdaChUSSadMre7t4iEUI6fFAhBOn/eIYTgYVhBv7vCLsAJ4u3lf3g==
+  dependencies:
+    "@types/estree" "^1.0.0"
+    estree-walker "^2.0.2"
+    picomatch "^2.3.1"
+
 "@sideway/address@^4.1.3":
   version "4.1.4"
   resolved "https://registry.yarnpkg.com/@sideway/address/-/address-4.1.4.tgz#03dccebc6ea47fdc226f7d3d1ad512955d4783f0"
@@ -2636,10 +2645,10 @@
     "@vue-macros/common" "1.7.0"
     unplugin "^1.4.0"
 
-"@vue-macros/jsx-directive@0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@vue-macros/jsx-directive/-/jsx-directive-0.3.0.tgz#96465e0a6fcd5cbf38b8385f85cbfa03653b7866"
-  integrity sha512-VO6szhFjgH0dQJcZ5FyjeFouJ/fsta7OoaVnM7ux2xDpVdIlW+ozyJ+J4e7eylA0RLJOE7zzHFUBnmhJUqxn2A==
+"@vue-macros/jsx-directive@0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@vue-macros/jsx-directive/-/jsx-directive-0.6.1.tgz#063b9ef621d734db6699f0df12ac1467481a6b73"
+  integrity sha512-2lz+QLgJmIkGQhqcO5NlyM8YfYx8UgweJ/VNPqWcK4dbgWHjEeMLZJD4UiwT36umMfumQcdxrQyp9PgTabcSzA==
   dependencies:
     "@vue-macros/common" "~1.7.0"
     unplugin "^1.4.0"
@@ -2653,17 +2662,17 @@
     "@vue/compiler-dom" "^3.3.4"
     unplugin "^1.4.0"
 
-"@vue-macros/nuxt@^1.6.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@vue-macros/nuxt/-/nuxt-1.6.0.tgz#8d68d1a8140f12e714b062f5e116beca8f8883a6"
-  integrity sha512-tRi1p+k09pkZLq8y8UuNLtQH7x/F8EOyj1kcUunQqQFonzakdQfBkSQpOq7CG6hOiA7bS8FgGjBtCf/h4tRZZQ==
+"@vue-macros/nuxt@^1.7.5":
+  version "1.7.5"
+  resolved "https://registry.yarnpkg.com/@vue-macros/nuxt/-/nuxt-1.7.5.tgz#ecda55e8b239f0c79e2897ddcfffb6cdc0c419e6"
+  integrity sha512-CspCc1ZmMVwOFNQINtpq3Nt+n8WeUOcXfzrZD7rScG8eDjyeOBA5ZFUpIS/PgRI15ZsCm3sZ+3+yOqScl0cwHg==
   dependencies:
     "@nuxt/kit" "^3.6.5"
     "@vue-macros/boolean-prop" "0.1.1"
     "@vue-macros/common" "~1.7.0"
     "@vue-macros/short-vmodel" "1.2.15"
-    "@vue-macros/volar" "0.13.3"
-    unplugin-vue-macros "2.4.4"
+    "@vue-macros/volar" "0.13.6"
+    unplugin-vue-macros "2.4.8"
 
 "@vue-macros/reactivity-transform@0.3.19":
   version "0.3.19"
@@ -2718,12 +2727,12 @@
     "@vue-macros/common" "1.7.0"
     "@vue/compiler-core" "^3.3.4"
 
-"@vue-macros/volar@0.13.3":
-  version "0.13.3"
-  resolved "https://registry.yarnpkg.com/@vue-macros/volar/-/volar-0.13.3.tgz#4cb1e08cbf3aa056bb2ea6588bf96b5f302a8ddb"
-  integrity sha512-gvM3UVnV1I0MIMJoY8o0c3ZWjfbX7n3ilEXUdy5kgASwu57yREjUTVWgihKBDqEuBszy2H49SYJgFziuhZ1r1Q==
+"@vue-macros/volar@0.13.6":
+  version "0.13.6"
+  resolved "https://registry.yarnpkg.com/@vue-macros/volar/-/volar-0.13.6.tgz#6662b857e40287b34c6ef4c4f39f117ee947308b"
+  integrity sha512-BvUJz7hFTyNK7Bs/qqeKMTjoAnTJnAANChmI9whdAyroGqpvS/Bp3kkeaTCiJa7X19MtmbYcFFCVweIroyJH4w==
   dependencies:
-    "@rollup/pluginutils" "^5.0.2"
+    "@rollup/pluginutils" "^5.0.3"
     "@volar/language-core" "1.10.0"
     "@vue-macros/common" "1.7.0"
     "@vue-macros/define-props" "1.0.17"
@@ -10002,10 +10011,10 @@ unplugin-vue-define-options@1.3.15:
     ast-walker-scope "^0.5.0"
     unplugin "^1.4.0"
 
-unplugin-vue-macros@2.4.4:
-  version "2.4.4"
-  resolved "https://registry.yarnpkg.com/unplugin-vue-macros/-/unplugin-vue-macros-2.4.4.tgz#5d8f55b382f3a26321f1fca69def635b929a1953"
-  integrity sha512-f7L8GnSOhtLNXU5PSyA8svIIjP68ij+TdM9Jhq409M31szSsW9ug6hZ5oTBwNcvapFV1I3ZvK4LKqXeY5FcIhA==
+unplugin-vue-macros@2.4.8:
+  version "2.4.8"
+  resolved "https://registry.yarnpkg.com/unplugin-vue-macros/-/unplugin-vue-macros-2.4.8.tgz#21084819a0c7b743c1d67a8c35c23de62312bd31"
+  integrity sha512-QrRjNkV26cOyPJbdotPSr9BD073kORmf9AjD9Kj+koaX+ITGLHGIBBngD+JtOiL+TJx6pxI6863/Nh/UF2t55Q==
   dependencies:
     "@vue-macros/better-define" "1.6.9"
     "@vue-macros/chain-call" "^0.1.3"
@@ -10021,7 +10030,7 @@ unplugin-vue-macros@2.4.4:
     "@vue-macros/export-expose" "0.0.10"
     "@vue-macros/export-props" "0.3.15"
     "@vue-macros/hoist-static" "1.4.9"
-    "@vue-macros/jsx-directive" "0.3.0"
+    "@vue-macros/jsx-directive" "0.6.1"
     "@vue-macros/named-template" "0.3.16"
     "@vue-macros/reactivity-transform" "0.3.19"
     "@vue-macros/setup-block" "0.2.15"
