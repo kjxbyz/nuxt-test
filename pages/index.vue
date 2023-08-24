@@ -1,10 +1,10 @@
 <template lang="pug">
-NuxtLink.link(href="/admin", target="_blank") Admin Page
+NuxtLink.link(href="/nuxt-test/admin", target="_blank") Admin Page
 //- | &nbsp;
 |
 | |
 |
-NuxtLink.link(href="/user", target="_blank") User Page
+NuxtLink.link(href="/nuxt-test/user", target="_blank") User Page
 br
 br
 v-btn(@click="loginWithAdmin", variant="flat", color="blue") {{ $t('loginWithAdmin') }}
