@@ -1,10 +1,10 @@
 <template lang="pug">
-NuxtLink.link(href="/admin", target="_blank") Admin Page
+NuxtLink.link(:to="baseURL + '/admin'", target="_blank") Admin Page
 //- | &nbsp;
 |
 | |
 |
-NuxtLink.link(href="/user", target="_blank") User Page
+NuxtLink.link(:to="baseURL + '/user'", target="_blank") User Page
 br
 br
 v-btn(@click="loginWithAdmin", variant="flat", color="blue") {{ $t('loginWithAdmin') }}
@@ -19,6 +19,8 @@ v-date-picker
 <script setup lang="ts">
 const { useAdminPermission, useUserPermission, logOut } = useAppPermission()
 const { t, locale } = useI18n()
+const config = useRuntimeConfig()
+const baseURL = config.app.baseURL === "/" ? "" : config.app.baseURL;
 
 const loginWithAdmin = () => {
   console.log('loginWithAdmin')
