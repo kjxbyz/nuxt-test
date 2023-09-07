@@ -1719,7 +1719,7 @@
     unimport "^3.2.0"
     untyped "^1.4.0"
 
-"@nuxt/kit@3.7.1":
+"@nuxt/kit@3.7.1", "@nuxt/kit@^3.7.1":
   version "3.7.1"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.7.1.tgz#d93ac970e5b4c4e11ea2a1bb42a415075ef78817"
   integrity sha512-8k4q+92qLz5z7RdSOKrEJIjM63xXBg0z/WhTtZgXv1R5ULZ77usdTMjQYhQ+Kgd1NMkpIXeKaAO6903xrSt53Q==
@@ -2551,19 +2551,19 @@
     hookable "^5.5.3"
     unhead "1.5.2"
 
-"@unlazy/core@0.9.3":
-  version "0.9.3"
-  resolved "https://registry.yarnpkg.com/@unlazy/core/-/core-0.9.3.tgz#8aefc89774e2e9f9b952493d81c2c3537adea152"
-  integrity sha512-kLOv6JDXIh8Hol8DsMuWH8PEvEF174wU82gL2gLZKFhw5eheHMAEV/3C55OL5V75YzHWap/HlNa5oQslCprqjg==
+"@unlazy/core@0.9.4":
+  version "0.9.4"
+  resolved "https://registry.yarnpkg.com/@unlazy/core/-/core-0.9.4.tgz#4c481c688573c0bec9a5a392e69257aa550a79b5"
+  integrity sha512-kMB4RyxqoqofjRrrgk8/Crdp3O9J+q3wWiwZ4ZaaACJU5GWspAN3Zmo6D7Qm0YVujNFNKGVB+Aj1GTyzghk2jg==
 
-"@unlazy/nuxt@^0.9.3":
-  version "0.9.3"
-  resolved "https://registry.yarnpkg.com/@unlazy/nuxt/-/nuxt-0.9.3.tgz#32358ad91d459a802512fcd34535b47da1518d6a"
-  integrity sha512-Utuk7lreKempg5ChM+mzVdwBdH2970e3xWL8GV6aZzjfnTVC5fH3ToD/8WEg3YHwcf4jyZezEF1gMUHg9Z+Bxg==
+"@unlazy/nuxt@^0.9.4":
+  version "0.9.4"
+  resolved "https://registry.yarnpkg.com/@unlazy/nuxt/-/nuxt-0.9.4.tgz#87173fc47845f26d14f12f0846b66e9562f10779"
+  integrity sha512-9Hak5m4eqRBA/OM5tyocATf9oftJlcLivKNmjOnOFoaFlDrGkhUGIhLItfXavRTBJRxtAtqqnsD5Yvq2vFVuXg==
   dependencies:
-    "@nuxt/kit" "^3.7.0"
+    "@nuxt/kit" "^3.7.1"
     defu "^6.1.2"
-    unlazy "0.9.3"
+    unlazy "0.9.4"
 
 "@vercel/analytics@^1.0.0":
   version "1.0.2"
@@ -10472,12 +10472,12 @@ universalify@^2.0.0:
   resolved "https://registry.yarnpkg.com/universalify/-/universalify-2.0.0.tgz#75a4984efedc4b08975c5aeb73f530d02df25717"
   integrity sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==
 
-unlazy@0.9.3:
-  version "0.9.3"
-  resolved "https://registry.yarnpkg.com/unlazy/-/unlazy-0.9.3.tgz#bb4f3e11b0da2deec138227bee18c646c9636b95"
-  integrity sha512-Nv5XvDrw/H7jB0At+7TnikCARa5Ke3aEGVXtBJ8oCsjJNlBIHHCAv2UCZbJYN/EGLk9WI8w8vkB7/5x6E8L9Kg==
+unlazy@0.9.4:
+  version "0.9.4"
+  resolved "https://registry.yarnpkg.com/unlazy/-/unlazy-0.9.4.tgz#bb4445c3c26c98eff22269add1d9c368e89ad2a6"
+  integrity sha512-pFsVDFD8QdCsvmGrUqlWB4BPTU6FITo/YJCrWvPd+Jl9cm3m+RQZHKYgR6NKq4CyTsNODrHDyWBLvUi1lKB1DA==
   dependencies:
-    "@unlazy/core" "0.9.3"
+    "@unlazy/core" "0.9.4"
 
 unplugin-combine@^0.7.0:
   version "0.7.0"
