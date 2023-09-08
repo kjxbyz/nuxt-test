@@ -2551,19 +2551,19 @@
     hookable "^5.5.3"
     unhead "1.5.2"
 
-"@unlazy/core@0.9.4":
-  version "0.9.4"
-  resolved "https://registry.yarnpkg.com/@unlazy/core/-/core-0.9.4.tgz#4c481c688573c0bec9a5a392e69257aa550a79b5"
-  integrity sha512-kMB4RyxqoqofjRrrgk8/Crdp3O9J+q3wWiwZ4ZaaACJU5GWspAN3Zmo6D7Qm0YVujNFNKGVB+Aj1GTyzghk2jg==
+"@unlazy/core@0.9.5":
+  version "0.9.5"
+  resolved "https://registry.yarnpkg.com/@unlazy/core/-/core-0.9.5.tgz#a54deff82ba1be6fa3d78bf052c4be5ebe824823"
+  integrity sha512-gZ5OENxkirdvWImRIct2rr/ikkl3uq1R4tEsqVlljXB90MsJNqOI8wz9MGw6ehRDP/yu/bLoxDvc22NYTkLHlA==
 
-"@unlazy/nuxt@^0.9.4":
-  version "0.9.4"
-  resolved "https://registry.yarnpkg.com/@unlazy/nuxt/-/nuxt-0.9.4.tgz#87173fc47845f26d14f12f0846b66e9562f10779"
-  integrity sha512-9Hak5m4eqRBA/OM5tyocATf9oftJlcLivKNmjOnOFoaFlDrGkhUGIhLItfXavRTBJRxtAtqqnsD5Yvq2vFVuXg==
+"@unlazy/nuxt@^0.9.5":
+  version "0.9.5"
+  resolved "https://registry.yarnpkg.com/@unlazy/nuxt/-/nuxt-0.9.5.tgz#0c46eb886cadfe6d0fbda4189e9423b6f9a0681d"
+  integrity sha512-rFQq3EINHSemJSZ3XZ21W41YAOGPWs3aDDT9Lh4jGcXzi+RfpnbejdhmqoQma8DIJmF9x8tns2hpWUe/JgZK6w==
   dependencies:
     "@nuxt/kit" "^3.7.1"
     defu "^6.1.2"
-    unlazy "0.9.4"
+    unlazy "0.9.5"
 
 "@vercel/analytics@^1.0.0":
   version "1.0.2"
@@ -10472,12 +10472,12 @@ universalify@^2.0.0:
   resolved "https://registry.yarnpkg.com/universalify/-/universalify-2.0.0.tgz#75a4984efedc4b08975c5aeb73f530d02df25717"
   integrity sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==
 
-unlazy@0.9.4:
-  version "0.9.4"
-  resolved "https://registry.yarnpkg.com/unlazy/-/unlazy-0.9.4.tgz#bb4445c3c26c98eff22269add1d9c368e89ad2a6"
-  integrity sha512-pFsVDFD8QdCsvmGrUqlWB4BPTU6FITo/YJCrWvPd+Jl9cm3m+RQZHKYgR6NKq4CyTsNODrHDyWBLvUi1lKB1DA==
+unlazy@0.9.5:
+  version "0.9.5"
+  resolved "https://registry.yarnpkg.com/unlazy/-/unlazy-0.9.5.tgz#4e991db2d30cdd0fd7977a5d1618cd4392d96569"
+  integrity sha512-VpoU5v3CRK26olohIxBcjZryzrJBiB6W2kskBS7fYkZYFfIR/YPd9gjsHwre6TVblOhqi6V0qCakhns+dptYrw==
   dependencies:
-    "@unlazy/core" "0.9.4"
+    "@unlazy/core" "0.9.5"
 
 unplugin-combine@^0.7.0:
   version "0.7.0"
