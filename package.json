@@ -31,7 +31,7 @@
   "dependencies": {
     "@mdi/font": "^7.2.96",
     "@nuxtjs/i18n": "8.0.0-rc.4",
-    "@vue-macros/nuxt": "^1.7.12",
+    "@vue-macros/nuxt": "^1.8.0",
     "idb-keyval": "^6.2.1",
     "nuxt-security": "^0.14.4",
     "simple-git": "^3.19.1",
