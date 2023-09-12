@@ -2570,19 +2570,19 @@
     hookable "^5.5.3"
     unhead "1.5.2"
 
-"@unlazy/core@0.10.0":
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/@unlazy/core/-/core-0.10.0.tgz#60b1fe25af7ffc9a8eae15cc05d7bf8b1f4de31c"
-  integrity sha512-+bkbfypn7j4PM5YtP95t4CDZWeomoHNmBNk4MT83kHcEwILov3M8BGXYTbqXTN5ApcRjAeD3F9LiGEDMOd/SOQ==
+"@unlazy/core@0.10.1":
+  version "0.10.1"
+  resolved "https://registry.yarnpkg.com/@unlazy/core/-/core-0.10.1.tgz#a3b85ea790b8cdb0e311a6e5e9d7889884ba1326"
+  integrity sha512-zsnuU6MKpuFv/0J1ktKLdoq1iRP1+FwaoIYyxDEVNxPPOWzGue5wUlgJSKyYOu/5aJ1reAEND0qKYyzuEn0Ylw==
 
-"@unlazy/nuxt@^0.10.0":
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/@unlazy/nuxt/-/nuxt-0.10.0.tgz#d265763eb2c4421002d0bf0248544f31fcd5fd21"
-  integrity sha512-UIoIGQA1zyPCgWPXc7IsoUksCu+08b+fhFlxHLvlMz50xBYZJDNgrNkLNf1+2xuR5GflVse0ga7HZu7HBLdafQ==
+"@unlazy/nuxt@^0.10.1":
+  version "0.10.1"
+  resolved "https://registry.yarnpkg.com/@unlazy/nuxt/-/nuxt-0.10.1.tgz#6b95959d49baefd5cdbe21381fea4fd6c5107005"
+  integrity sha512-VvTL0hq/dXuPotAuMHFQxdAIUD7Oq9snMai1YrVJK/g5vb3eXJnG2BE5tWMldbJU3rA+qDNxxnRJ/vITzi77xQ==
   dependencies:
     "@nuxt/kit" "^3.7.1"
     defu "^6.1.2"
-    unlazy "0.10.0"
+    unlazy "0.10.1"
 
 "@vercel/analytics@^1.0.0":
   version "1.0.2"
@@ -10517,12 +10517,12 @@ universalify@^2.0.0:
   resolved "https://registry.yarnpkg.com/universalify/-/universalify-2.0.0.tgz#75a4984efedc4b08975c5aeb73f530d02df25717"
   integrity sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==
 
-unlazy@0.10.0:
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/unlazy/-/unlazy-0.10.0.tgz#f4bd558e9c710971c9f8211363654b5fe45e189e"
-  integrity sha512-PJhid1mzjB9UUd3RUBe9v6BwrUNtVkaPF/MW3P5caaY7Xd25VFzMQOqc9cMnNeusgyJ+ouUUggNdwCqQQXKnTA==
+unlazy@0.10.1:
+  version "0.10.1"
+  resolved "https://registry.yarnpkg.com/unlazy/-/unlazy-0.10.1.tgz#d1b945cb3081644a7782d4263a7fa7bf431de3a1"
+  integrity sha512-kx0MlKqzVSuA86gfZhx1ai8G3pGtqqwWwqlykPnfbzHuFymDba1BU0l+HxGZ+k6LDxRFZ2SdZCGHCXa/FYVsyg==
   dependencies:
-    "@unlazy/core" "0.10.0"
+    "@unlazy/core" "0.10.1"
 
 unplugin-combine@^0.7.0:
   version "0.7.0"
