@@ -2555,14 +2555,14 @@
     rollup "^3.29.1"
     unplugin "^1.4.0"
 
-"@vue-macros/define-models@1.0.16":
-  version "1.0.16"
-  resolved "https://registry.yarnpkg.com/@vue-macros/define-models/-/define-models-1.0.16.tgz#19274579c347948bc47e95089adc632424ca9a14"
-  integrity sha512-+/3tMcCP6UCdmzn4R8IG16eAk8JNSndsKguq5PNXfg1OZaAmbskGUA5QGOUqNKxynP1rtcCtwEJB8CnzMiiAUQ==
+"@vue-macros/define-models@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@vue-macros/define-models/-/define-models-1.1.0.tgz#819de2e9b92cdecabb4a8b3469fdfc84b26d54aa"
+  integrity sha512-EaayVKSnlDcu6TZEQyzYQClUL4Owa2DUOALcpJjREZ3VMCWakzyMNdfrUTwxWqNlS9wh59/UZVgZhjb+/o0iww==
   dependencies:
     "@vue-macros/common" "1.8.0"
     ast-walker-scope "^0.5.0"
-    unplugin "^1.4.0"
+    unplugin "^1.5.0"
 
 "@vue-macros/define-prop@^0.2.8":
   version "0.2.8"
@@ -2665,15 +2665,15 @@
     "@vue/compiler-dom" "^3.3.4"
     unplugin "^1.4.0"
 
-"@vue-macros/nuxt@^1.9.0":
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/@vue-macros/nuxt/-/nuxt-1.9.0.tgz#079f04828e8424de677fc80571559774a3df0c36"
-  integrity sha512-tZ4le6y4qK8HiyhVLIxJ5M+RVM+hpfMa3zf8NRcTSg+dr9Y4OdwAANr1IExqLgnEHP65BKCGETnRSMxTb9dJKA==
+"@vue-macros/nuxt@^1.9.1":
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/@vue-macros/nuxt/-/nuxt-1.9.1.tgz#a4f5f52ca13bf9426006d4021ea17b907c03b870"
+  integrity sha512-2bv74nyHCjovvEsGB/qzeg7nIPk8yciGY+AwJTbMzJa49QBPy9eQfpuOhEb1blr5kWHDtI70DcHxPjV4mXzKxw==
   dependencies:
     "@nuxt/kit" "^3.7.3"
     "@vue-macros/common" "~1.8.0"
-    "@vue-macros/volar" "0.15.0"
-    unplugin-vue-macros "2.6.0"
+    "@vue-macros/volar" "0.16.0"
+    unplugin-vue-macros "2.6.1"
 
 "@vue-macros/reactivity-transform@0.3.23":
   version "0.3.23"
@@ -2736,10 +2736,10 @@
     "@vue-macros/common" "1.8.0"
     "@vue/compiler-core" "^3.3.4"
 
-"@vue-macros/volar@0.15.0":
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/@vue-macros/volar/-/volar-0.15.0.tgz#1e3271a5a426042a1f7be4118adebf980e7c3029"
-  integrity sha512-3OxCrQSGpHFskq6XQD7y8oJowGq2sLp+TmmOv3OhJIqGfSoUiIiIAZxaOloYMcDrjoFUmDRGZgR6fIS/nnqC6Q==
+"@vue-macros/volar@0.16.0":
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/@vue-macros/volar/-/volar-0.16.0.tgz#313d59387d2347d1155a5955f37f345ccb9591c5"
+  integrity sha512-0tvnysxX9VyMebw+1Xkp08+DJ0OtV8msUhpwxzGsH9qcCCbnh55RMnhUg5RMiwZBzT+WyTF9jM9JnASxjSHPfg==
   dependencies:
     "@rollup/pluginutils" "^5.0.4"
     "@volar/language-core" "1.10.1"
@@ -2747,7 +2747,7 @@
     "@vue-macros/define-props" "1.0.21"
     "@vue-macros/short-bind" "0.1.0"
     "@vue-macros/short-vmodel" "1.3.0"
-    "@vue/language-core" "1.8.10"
+    "@vue/language-core" "1.8.14"
 
 "@vue/babel-helper-vue-transform-on@^1.1.5":
   version "1.1.5"
@@ -2816,10 +2816,10 @@
   resolved "https://registry.yarnpkg.com/@vue/devtools-api/-/devtools-api-6.5.0.tgz#98b99425edee70b4c992692628fa1ea2c1e57d07"
   integrity sha512-o9KfBeaBmCKl10usN4crU53fYtC1r7jJwdGKjPT24t348rHxgfpZ0xL3Xm/gLUYnc0oTp8LAmrxOeLyu6tbk2Q==
 
-"@vue/language-core@1.8.10":
-  version "1.8.10"
-  resolved "https://registry.yarnpkg.com/@vue/language-core/-/language-core-1.8.10.tgz#e37409ac8686f30963a00662d51bf6d07c599ca9"
-  integrity sha512-db8PtM4ZZr7SYNH30XpKxUYnUBYaTvcuJ4c2whKK04fuAjbtjAIZ2al5GzGEfUlesmvkpgdbiSviRXUxgD9Omw==
+"@vue/language-core@1.8.14":
+  version "1.8.14"
+  resolved "https://registry.yarnpkg.com/@vue/language-core/-/language-core-1.8.14.tgz#c715940d2dbf88e13c28a5b76e77b313f3d56086"
+  integrity sha512-15GGOkUP/AgE/jzGdUMtOaQ+XPokrP+Q5Z0DS3aun3i72E6MjFvwB7E2k/ap0mABjdRCRjoVPnsMF1+TkzGqQg==
   dependencies:
     "@volar/language-core" "~1.10.0"
     "@volar/source-map" "~1.10.0"
@@ -10065,17 +10065,17 @@ unplugin-vue-define-options@1.3.18:
     ast-walker-scope "^0.5.0"
     unplugin "^1.4.0"
 
-unplugin-vue-macros@2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/unplugin-vue-macros/-/unplugin-vue-macros-2.6.0.tgz#f25f6567890873f447116d414fbed2dab66ef555"
-  integrity sha512-rbOIGBdf3tNqJ2UKUlCq8Ng52jfEJ+zMX4TaGoYpewAtw1XpuKG6ZfnXvGCDR5M6hmBX0nqbkL8qSnsBZYy5XQ==
+unplugin-vue-macros@2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/unplugin-vue-macros/-/unplugin-vue-macros-2.6.1.tgz#250f8824082b22d315725a26d8418065ec059916"
+  integrity sha512-YHqCZgZPasdRwmmuautjXkV6uOQ0amg/qHnXyUMgLI8/FkgtfGx+QgeknXpLgiOC2PVXlsuCqbcGnHJ/N4VtUg==
   dependencies:
     "@vue-macros/better-define" "1.6.12"
     "@vue-macros/boolean-prop" "0.2.1"
     "@vue-macros/chain-call" "^0.1.6"
     "@vue-macros/common" "1.8.0"
     "@vue-macros/define-emit" "^0.1.16"
-    "@vue-macros/define-models" "1.0.16"
+    "@vue-macros/define-models" "1.1.0"
     "@vue-macros/define-prop" "^0.2.8"
     "@vue-macros/define-props" "1.0.21"
     "@vue-macros/define-props-refs" "1.1.10"
