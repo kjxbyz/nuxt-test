@@ -25,6 +25,7 @@ export default defineNuxtConfig({
     transpile: ['vuetify'],
   },
   modules: [
+    'nuxt-gtag',
     '@vueuse/nuxt',
     '@nuxtjs/i18n',
     '@vue-macros/nuxt',
@@ -45,6 +46,9 @@ export default defineNuxtConfig({
     classSuffix: '',
   },
   devtools: { enabled: true },
+  gtag: {
+    id: 'G-4YX3HPV3SP'
+  },
   pwa,
   i18n: {
     locales: currentLocales,
