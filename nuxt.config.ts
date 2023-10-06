@@ -208,7 +208,7 @@ export default defineNuxtConfig({
         'img-src': ['\'self\'', 'https:', 'http:', 'data:', 'blob:'],
         'media-src': ['\'self\'', 'https:', 'http:'],
         'object-src': ['\'none\''],
-        'script-src': ['\'self\'', '\'unsafe-inline\'', '\'wasm-unsafe-eval\''],
+        'script-src': ['\'self\'', '\'unsafe-inline\'', '\'wasm-unsafe-eval\'', 'www.googletagmanager.com', 'www.google-analytics.com'],
         'script-src-attr': ['\'none\''],
         'style-src': ['\'self\'', '\'unsafe-inline\''],
         'upgrade-insecure-requests': true,
