@@ -2149,6 +2149,15 @@
     estree-walker "^2.0.2"
     picomatch "^2.3.1"
 
+"@rollup/pluginutils@^5.0.5":
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-5.0.5.tgz#bbb4c175e19ebfeeb8c132c2eea0ecb89941a66c"
+  integrity sha512-6aEYR910NyP73oHiJglti74iRyOwgFU4x3meH/H8OJx6Ry0j6cOVZ5X/wTvub7G7Ao6qaHBEaNsV3GLJkSsF+Q==
+  dependencies:
+    "@types/estree" "^1.0.0"
+    estree-walker "^2.0.2"
+    picomatch "^2.3.1"
+
 "@sideway/address@^4.1.3":
   version "4.1.4"
   resolved "https://registry.yarnpkg.com/@sideway/address/-/address-4.1.4.tgz#03dccebc6ea47fdc226f7d3d1ad512955d4783f0"
@@ -2648,14 +2657,14 @@
     "@vue/compiler-dom" "^3.3.4"
     unplugin "^1.4.0"
 
-"@vue-macros/nuxt@^1.9.1":
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/@vue-macros/nuxt/-/nuxt-1.9.1.tgz#a4f5f52ca13bf9426006d4021ea17b907c03b870"
-  integrity sha512-2bv74nyHCjovvEsGB/qzeg7nIPk8yciGY+AwJTbMzJa49QBPy9eQfpuOhEb1blr5kWHDtI70DcHxPjV4mXzKxw==
+"@vue-macros/nuxt@^1.9.2":
+  version "1.9.2"
+  resolved "https://registry.yarnpkg.com/@vue-macros/nuxt/-/nuxt-1.9.2.tgz#23deb0784627359366416c251a68b0795f35f1ee"
+  integrity sha512-e7auAg/8ySKgKiXEtvVcepdKv87o67oxZa9q9TPY5BkupzS1j3yWbwH8biibwd8hWHStztv6z3whY5zFEcKW6w==
   dependencies:
-    "@nuxt/kit" "^3.7.3"
+    "@nuxt/kit" "^3.7.4"
     "@vue-macros/common" "~1.8.0"
-    "@vue-macros/volar" "0.16.0"
+    "@vue-macros/volar" "0.16.1"
     unplugin-vue-macros "2.6.1"
 
 "@vue-macros/reactivity-transform@0.3.23":
@@ -2719,12 +2728,12 @@
     "@vue-macros/common" "1.8.0"
     "@vue/compiler-core" "^3.3.4"
 
-"@vue-macros/volar@0.16.0":
-  version "0.16.0"
-  resolved "https://registry.yarnpkg.com/@vue-macros/volar/-/volar-0.16.0.tgz#313d59387d2347d1155a5955f37f345ccb9591c5"
-  integrity sha512-0tvnysxX9VyMebw+1Xkp08+DJ0OtV8msUhpwxzGsH9qcCCbnh55RMnhUg5RMiwZBzT+WyTF9jM9JnASxjSHPfg==
+"@vue-macros/volar@0.16.1":
+  version "0.16.1"
+  resolved "https://registry.yarnpkg.com/@vue-macros/volar/-/volar-0.16.1.tgz#e485e04b20c52258b9c400cb565ed911b876c582"
+  integrity sha512-jF7L/aZreiukZ5bX8PdXyfBNwWyiZpSGeIdhL49Rp2OtaxMIxG9gmxwP45TTcwfl0pt0omBzF37ZgiI99yRP/Q==
   dependencies:
-    "@rollup/pluginutils" "^5.0.4"
+    "@rollup/pluginutils" "^5.0.5"
     "@volar/language-core" "1.10.1"
     "@vue-macros/common" "1.8.0"
     "@vue-macros/define-props" "1.0.21"
