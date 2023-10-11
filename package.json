@@ -40,6 +40,6 @@
     "tauri-plugin-log-api": "github:tauri-apps/tauri-plugin-log",
     "tauri-plugin-store-api": "github:tauri-apps/tauri-plugin-store",
     "vite-plugin-pwa": "^0.16.5",
-    "vuetify": "^3.3.20"
+    "vuetify": "^3.3.21"
   }
 }
