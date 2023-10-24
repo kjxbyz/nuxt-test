@@ -2657,14 +2657,14 @@
     "@vue/compiler-dom" "^3.3.4"
     unplugin "^1.4.0"
 
-"@vue-macros/nuxt@^1.9.3":
-  version "1.9.3"
-  resolved "https://registry.yarnpkg.com/@vue-macros/nuxt/-/nuxt-1.9.3.tgz#11a26f7f638e2276db63d4aaf774328f55d22dc8"
-  integrity sha512-zX598EN36e5CDvmnaa045EM+PTSFxjtts1nsTtQDjLYK1bdRHzBGHodawX+fphn6UkT8epHzBpYi2IM6D7AFtw==
+"@vue-macros/nuxt@^1.9.4":
+  version "1.9.4"
+  resolved "https://registry.yarnpkg.com/@vue-macros/nuxt/-/nuxt-1.9.4.tgz#ef1d860c0d63195d31a1f5446f86caebc2450daf"
+  integrity sha512-wtrQQ13P4+Cy/DkTW7Mx+efaXShA2/uR9KT6xYRPSO4OJS+Eu0rh5d/wQq78RlsnpJ1YNqTBpIvT/RaIAeXv0w==
   dependencies:
     "@nuxt/kit" "^3.7.4"
     "@vue-macros/common" "~1.8.0"
-    "@vue-macros/volar" "0.17.0"
+    "@vue-macros/volar" "0.17.1"
     unplugin-vue-macros "2.6.1"
 
 "@vue-macros/reactivity-transform@0.3.23":
@@ -2728,10 +2728,10 @@
     "@vue-macros/common" "1.8.0"
     "@vue/compiler-core" "^3.3.4"
 
-"@vue-macros/volar@0.17.0":
-  version "0.17.0"
-  resolved "https://registry.yarnpkg.com/@vue-macros/volar/-/volar-0.17.0.tgz#1c5229b68e9d30255a12a36aef6a847f5c69f5a4"
-  integrity sha512-Ufv1Mt1LI3VFF7s4HVVwjAYsVuHqvO7viGJ2Hyfjic4xZdwoV1z3JV6DK8I5ab81sdda8R91s0eG53YbLy+iMg==
+"@vue-macros/volar@0.17.1":
+  version "0.17.1"
+  resolved "https://registry.yarnpkg.com/@vue-macros/volar/-/volar-0.17.1.tgz#1a1de0ac655ae3dffda7a9f7633bd131046c3bf1"
+  integrity sha512-PBd3mieM2+zlhChUKto32DEEYz1diN6UhoAYaICxnVO6S4x1VkmxgTis52TuwtOFpgxgO/mXdlhdy0MgkUr+tg==
   dependencies:
     "@rollup/pluginutils" "^5.0.5"
     "@volar/language-core" "1.10.4"
@@ -2739,7 +2739,7 @@
     "@vue-macros/define-props" "1.0.21"
     "@vue-macros/short-bind" "0.1.0"
     "@vue-macros/short-vmodel" "1.3.0"
-    "@vue/language-core" "1.8.19"
+    "@vue/language-core" "1.8.20"
 
 "@vue/babel-helper-vue-transform-on@^1.1.5":
   version "1.1.5"
@@ -2808,16 +2808,16 @@
   resolved "https://registry.yarnpkg.com/@vue/devtools-api/-/devtools-api-6.5.0.tgz#98b99425edee70b4c992692628fa1ea2c1e57d07"
   integrity sha512-o9KfBeaBmCKl10usN4crU53fYtC1r7jJwdGKjPT24t348rHxgfpZ0xL3Xm/gLUYnc0oTp8LAmrxOeLyu6tbk2Q==
 
-"@vue/language-core@1.8.19":
-  version "1.8.19"
-  resolved "https://registry.yarnpkg.com/@vue/language-core/-/language-core-1.8.19.tgz#c52cef2f89ad4b74caa29e97fd07a71d35ac9e60"
-  integrity sha512-nt3dodGs97UM6fnxeQBazO50yYCKBK53waFWB3qMbLmR6eL3aUryZgQtZoBe1pye17Wl8fs9HysV3si6xMgndQ==
+"@vue/language-core@1.8.20":
+  version "1.8.20"
+  resolved "https://registry.yarnpkg.com/@vue/language-core/-/language-core-1.8.20.tgz#f7f83bad3f6a52f5d006b874630dd424233f1e08"
+  integrity sha512-vNJaqjCTSrWEr+erSq6Rq0CqDC8MOAwyxirxwK8esOxd+1LmAUJUTG2p7I84Mj1Izy5uHiHQAkRTVR2QxMBY+A==
   dependencies:
     "@volar/language-core" "~1.10.4"
     "@volar/source-map" "~1.10.4"
     "@vue/compiler-dom" "^3.3.0"
-    "@vue/reactivity" "^3.3.0"
     "@vue/shared" "^3.3.0"
+    computeds "^0.0.1"
     minimatch "^9.0.3"
     muggle-string "^0.3.1"
     vue-template-compiler "^2.7.14"
@@ -2833,7 +2833,7 @@
     estree-walker "^2.0.2"
     magic-string "^0.30.0"
 
-"@vue/reactivity@3.3.4", "@vue/reactivity@^3.3.0":
+"@vue/reactivity@3.3.4":
   version "3.3.4"
   resolved "https://registry.yarnpkg.com/@vue/reactivity/-/reactivity-3.3.4.tgz#a27a29c6cd17faba5a0e99fbb86ee951653e2253"
   integrity sha512-kLTDLwd0B1jG08NBF3R5rqULtv/f8x3rOFByTDz4J53ttIQEDmALqKqXY0J+XQeN0aV2FBxY8nJDf88yvOPAqQ==
@@ -3716,6 +3716,11 @@ compress-commons@^5.0.1:
     crc32-stream "^5.0.0"
     normalize-path "^3.0.0"
     readable-stream "^3.6.0"
+
+computeds@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/computeds/-/computeds-0.0.1.tgz#215b08a4ba3e08a11ff6eee5d6d8d7166a97ce2e"
+  integrity sha512-7CEBgcMjVmitjYo5q8JTJVra6X5mQ20uTThdK+0kR7UEaDrAWEQcRiBtWJzga4eRpP6afNwwLsX2SET2JhVB1Q==
 
 concat-map@0.0.1:
   version "0.0.1"
