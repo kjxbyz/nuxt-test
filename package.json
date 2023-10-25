@@ -20,7 +20,7 @@
     "@unlazy/nuxt": "^0.10.1",
     "@vueuse/nuxt": "^10.5.0",
     "fs-extra": "^11.1.1",
-    "nuxt": "^3.7.4",
+    "nuxt": "^3.8.0",
     "nuxt-gtag": "^1.1.1",
     "nuxt-vercel-analytics": "^0.2.2",
     "prettier": "^3.0.3",
