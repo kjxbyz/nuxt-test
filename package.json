@@ -14,7 +14,7 @@
     "@nuxt/content": "^2.8.5",
     "@nuxt/devtools": "latest",
     "@nuxtjs/color-mode": "^3.3.0",
-    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@nuxtjs/tailwindcss": "^6.8.1",
     "@types/fs-extra": "^11.0.3",
     "@types/node": "^18.18.7",
     "@unlazy/nuxt": "^0.10.1",
