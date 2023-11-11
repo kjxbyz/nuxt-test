@@ -7,6 +7,9 @@ import { pwa } from './config/pwa'
 const { resolve } = createResolver(import.meta.url)
 
 export default defineNuxtConfig({
+  experimental: {
+    appManifest: false,
+  },
   typescript: {
     tsConfig: {
       exclude: ['../service-worker'],
