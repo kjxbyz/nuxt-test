@@ -21,8 +21,8 @@ dependencies:
     specifier: ^0.14.4
     version: 0.14.4(rollup@2.79.1)
   simple-git:
-    specifier: ^3.20.0
-    version: 3.20.0
+    specifier: ^3.21.0
+    version: 3.21.0
   std-env:
     specifier: ^3.5.0
     version: 3.5.0
@@ -2158,7 +2158,7 @@ packages:
       rc9: 2.1.1
       scule: 1.0.0
       semver: 7.5.4
-      simple-git: 3.20.0
+      simple-git: 3.21.0
       sirv: 2.0.3
       unimport: 3.5.0(rollup@2.79.1)
       vite: 4.5.0(@types/node@18.18.9)(stylus@0.61.0)
@@ -9523,8 +9523,8 @@ packages:
     requiresBuild: true
     dev: true
 
-  /simple-git@3.20.0:
-    resolution: {integrity: sha512-ozK8tl2hvLts8ijTs18iFruE+RoqmC/mqZhjs/+V7gS5W68JpJ3+FCTmLVqmR59MaUQ52MfGQuWsIqfsTbbJ0Q==}
+  /simple-git@3.21.0:
+    resolution: {integrity: sha512-oTzw9248AF5bDTMk9MrxsRzEzivMlY+DWH0yWS4VYpMhNLhDWnN06pCtaUyPnqv/FpsdeNmRqmZugMABHRPdDA==}
     dependencies:
       '@kwsites/file-exists': 1.1.1
       '@kwsites/promise-deferred': 1.1.1
