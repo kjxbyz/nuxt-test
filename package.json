@@ -16,7 +16,7 @@
     "@nuxtjs/color-mode": "^3.3.2",
     "@nuxtjs/tailwindcss": "^6.9.5",
     "@types/fs-extra": "^11.0.4",
-    "@types/node": "^18.18.10",
+    "@types/node": "^18.18.12",
     "@unlazy/nuxt": "^0.10.2",
     "@vueuse/nuxt": "^10.6.1",
     "fs-extra": "^11.1.1",
