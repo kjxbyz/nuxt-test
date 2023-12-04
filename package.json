@@ -39,7 +39,7 @@
     "std-env": "^3.5.0",
     "tauri-plugin-log-api": "github:tauri-apps/tauri-plugin-log",
     "tauri-plugin-store-api": "github:tauri-apps/tauri-plugin-store",
-    "vite-plugin-pwa": "^0.17.2",
+    "vite-plugin-pwa": "^0.17.3",
     "vuetify": "^3.4.4"
   },
   "engines": {
