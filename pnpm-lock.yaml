@@ -36,8 +36,8 @@ dependencies:
     specifier: ^0.17.4
     version: 0.17.4(vite@4.5.0)(workbox-build@7.0.0)(workbox-window@7.0.0)
   vuetify:
-    specifier: ^3.4.7
-    version: 3.4.7(vue@3.3.8)
+    specifier: ^3.4.8
+    version: 3.4.8(vue@3.3.8)
 
 devDependencies:
   '@nuxt/content':
@@ -10909,8 +10909,8 @@ packages:
       '@vue/server-renderer': 3.3.8(vue@3.3.8)
       '@vue/shared': 3.3.8
 
-  /vuetify@3.4.7(vue@3.3.8):
-    resolution: {integrity: sha512-K++yer5H94Yi/uzgKDOTYRPA9qipVntomEohRsegfAnRqmFyw2x9clHVEoTRa/Fvk3nkHti0zn90Mp7mSUwVnw==}
+  /vuetify@3.4.8(vue@3.3.8):
+    resolution: {integrity: sha512-fx/cVZNYU1Pk1LWevbCCKU5pv2ew/8EWkLhF75LHSzgU6b0skzQaIq6Gr/qSXbUDAPuJz7zqqGbFD6CSNYsY0w==}
     engines: {node: ^12.20 || >=14.13}
     peerDependencies:
       typescript: '>=4.7'
