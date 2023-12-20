@@ -21,7 +21,7 @@
     "@vueuse/nuxt": "^10.7.0",
     "fs-extra": "^11.2.0",
     "nuxt": "^3.8.0",
-    "nuxt-gtag": "^1.1.1",
+    "nuxt-gtag": "^1.1.2",
     "nuxt-vercel-analytics": "^0.2.3",
     "prettier": "^3.1.1",
     "pug": "^3.0.2",
