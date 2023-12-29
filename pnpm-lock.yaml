@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@mdi/font':
-    specifier: ^7.3.67
-    version: 7.3.67
+    specifier: ^7.4.47
+    version: 7.4.47
   '@nuxtjs/i18n':
     specifier: 8.0.0-rc.11
     version: 8.0.0-rc.11(rollup@3.29.4)(vue@3.3.8)
@@ -1934,8 +1934,8 @@ packages:
       - encoding
       - supports-color
 
-  /@mdi/font@7.3.67:
-    resolution: {integrity: sha512-SWxvzRbUQRfewlIV+OF4/YF4DkeTjMWoT8Hh9yeU/5UBVdJZj9Uf4a9+cXjknSIhIaMxZ/4N1O/s7ojApOOGjg==}
+  /@mdi/font@7.4.47:
+    resolution: {integrity: sha512-43MtGpd585SNzHZPcYowu/84Vz2a2g31TvPMTm9uTiCSWzaheQySUcSyUH/46fPnuPQWof2yd0pGBtzee/IQWw==}
     dev: false
 
   /@miyaneee/rollup-plugin-json5@1.1.2(rollup@3.29.4):
