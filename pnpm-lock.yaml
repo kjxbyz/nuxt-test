@@ -59,8 +59,8 @@ devDependencies:
     specifier: ^18.19.4
     version: 18.19.4
   '@unlazy/nuxt':
-    specifier: ^0.10.2
-    version: 0.10.2(rollup@3.29.4)
+    specifier: ^0.10.3
+    version: 0.10.3(rollup@3.29.4)
   '@vueuse/nuxt':
     specifier: ^10.7.1
     version: 10.7.1(nuxt@3.8.0)(rollup@3.29.4)(vue@3.3.8)
@@ -3115,16 +3115,16 @@ packages:
       unhead: 1.8.3
       vue: 3.3.8
 
-  /@unlazy/core@0.10.2:
-    resolution: {integrity: sha512-fexU3OwQfbRhkfbKgimpJPQODuwlnY7g3qNQyZD2pAf87BdOR2a6MGWzX6dyCgRMawqE7NVipFN8J/Nc+LAQHA==}
+  /@unlazy/core@0.10.3:
+    resolution: {integrity: sha512-Ak0Ci9lUs6iPnz2WZcXT9eC1dVp8eFluNbyUZ0lskeYSOpj8dKPvaEXqIS00WP/CoTftIrqvJTKYILThloVxuA==}
     dev: true
 
-  /@unlazy/nuxt@0.10.2(rollup@3.29.4):
-    resolution: {integrity: sha512-QA0QRGnTv6RtJJhxkdwXtRmVOxORohD/GMo8C5FhQdfL65Lsi0TBLoM1b1q+NE4VxYPG32IuQpS/64m+r7jQEQ==}
+  /@unlazy/nuxt@0.10.3(rollup@3.29.4):
+    resolution: {integrity: sha512-tXvWxydxl4s7Z1T+4J5EEyv66s30MfIR56IX6yz9i9OCHMcIRsRHKimXu+muZ6jBOp6OkMQAtpG6+SH4uLDNfA==}
     dependencies:
-      '@nuxt/kit': 3.8.1(rollup@3.29.4)
+      '@nuxt/kit': 3.9.0(rollup@3.29.4)
       defu: 6.1.3
-      unlazy: 0.10.2
+      unlazy: 0.10.3
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -9911,10 +9911,10 @@ packages:
     resolution: {integrity: sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==}
     engines: {node: '>= 10.0.0'}
 
-  /unlazy@0.10.2:
-    resolution: {integrity: sha512-gojvkppORi4ebvZ1Sq3+Tp7Lgh3+JWy5Wt9bcL3nafE92TQ3kVaf6+6RQMZA/bHm+iZ3UwQm6NngVb98pgAmyA==}
+  /unlazy@0.10.3:
+    resolution: {integrity: sha512-yPiknZ7fa6m3yUfJTFyG3+IbcZ1VSWmmv4I/ur2qvcrN4kY9OvnVku2WNmteft+hhnJ78zMkBNzIIZ5sDA00xQ==}
     dependencies:
-      '@unlazy/core': 0.10.2
+      '@unlazy/core': 0.10.3
     dev: true
 
   /unplugin-combine@0.8.1(rollup@3.29.4)(vite@4.5.0)(webpack@5.89.0):
