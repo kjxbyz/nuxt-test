@@ -34,7 +34,7 @@
     "@nuxtjs/i18n": "8.0.0",
     "@vue-macros/nuxt": "^1.9.20",
     "idb-keyval": "^6.2.1",
-    "nuxt-security": "^0.14.4",
+    "nuxt-security": "^1.0.0",
     "simple-git": "^3.22.0",
     "std-env": "^3.7.0",
     "tauri-plugin-log-api": "github:tauri-apps/tauri-plugin-log",
